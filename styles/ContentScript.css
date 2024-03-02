@@ -1,0 +1,112 @@
+.WWcontainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  width: 400px;
+  max-height: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+}
+
+.WWtopItem {
+  height: 65%;
+}
+
+.WWtopItem > h1 {
+  font-family: cursive;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: rgb(48, 48, 48);
+  border-bottom: 2px solid rgb(225, 225, 225);
+}
+
+.WWtopItemMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.WWInfo {
+  padding-left: 10px;
+}
+
+.WWInfo > p {
+  color: rgb(104, 104, 104);
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.WWInfo > h4 {
+  color: rgb(48, 48, 48);
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+}
+
+#WWbtn {
+  color: rgb(241, 88, 88);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid black;
+  outline: none;
+}
+
+#WWbtn:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+#WWbtn:active {
+  background-color: rgb(175, 175, 175);
+}
+
+.WWbottomItem {
+  height: 35%;
+  position: relative;
+  padding: 15px;
+}
+
+.WWtimeCont {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(14, 13, 20);
+  padding: 12px 0px;
+}
+
+.WWtimeCont > p {
+  color: rgb(184, 184, 184);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.WWtime {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.WWnumber {
+  color: white;
+  font-size: 40px;
+  padding: 0px 5px;
+}
+
+.WWnumber > p {
+  margin: 0;
+}
+
+.WWtime > span {
+  color: rgb(184, 184, 184);
+  font-size: 20px;
+}
