@@ -45,6 +45,14 @@ To access and run the Web Warden project on your PC, follow these steps:
 4. **Access the Application**:
    - Open your web browser and go to `http://localhost:3000` to access the Web Warden application.
 
+5. **View as an Extension**:
+   - To view Web Warden as a Chrome extension, follow these steps:
+     - Open Google Chrome browser.
+     - Go to `chrome://extensions/`.
+     - Enable "Developer mode" in the top right corner.
+     - Click on "Load unpacked" and select the `web-warden` directory from your local machine.
+     - The Web Warden extension will be loaded into your Chrome browser.
+
 **Contributing:**
 
 Contributions to the Web Warden project are welcome! If you would like to contribute, please follow these steps:
@@ -56,6 +64,4 @@ Contributions to the Web Warden project are welcome! If you would like to contri
 5. Push your changes to your fork on GitHub.
 6. Open a pull request to the main repository.
 
-Please ensure that your contributions adhere to the project's coding standards .
-
-
+Please ensure that your contributions adhere to the project's coding standards 
